@@ -1,0 +1,121 @@
+Test started !! loginTest
+Descripetion !! Verify the login API
+Passed !! loginTest
+Descripetion !! Verify the login API
+Test Suite Finished
+20:59:58 [main] INFO  com.api.listeners.TestListener - Test started !! loginTest
+20:59:58 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify the login API
+20:59:59 [main] INFO  com.api.listeners.TestListener - Passed !! loginTest
+20:59:59 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify the login API
+20:59:59 [main] INFO  com.api.listeners.TestListener - Test Suite Finished
+21:27:43 [main] INFO  com.api.listeners.TestListener - Test started !! loginTest
+21:27:43 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify the login API
+21:27:44 [main] INFO  com.api.filters.LoggingFilter - BASE URI =http://64.227.160.186:8080
+21:27:44 [main] INFO  com.api.filters.LoggingFilter - Request Header =Accept=*/*
+Content-Type=application/json
+21:27:44 [main] INFO  com.api.filters.LoggingFilter - Body ={"username":"uday1234","password":"uday12345"}
+21:27:44 [main] INFO  com.api.filters.LoggingFilter - status Code =200
+21:27:44 [main] INFO  com.api.filters.LoggingFilter - Request Header =Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 31 Jan 2026 15:57:44 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:27:45 [main] INFO  com.api.filters.LoggingFilter - Body ={
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc2OTg3NTA2NCwiZXhwIjoxNzY5ODc4NjY0fQ.vIgl6qu3luWSbevidXC2UxjWoiP92kKUEWJUDiR0Ot8",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "ALOK1234@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:27:45 [main] INFO  com.api.listeners.TestListener - Passed !! loginTest
+21:27:45 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify the login API
+21:27:45 [main] INFO  com.api.listeners.TestListener - Test Suite Finished
+21:54:52 [main] INFO  com.api.listeners.TestListener - Test started !! getProfileInfo
+21:54:52 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify Get profile API
+21:54:53 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+21:54:53 [main] INFO  com.api.filters.LoggingFilter - Request Header :Accept=*/*
+Content-Type=application/json
+21:54:53 [main] INFO  com.api.filters.LoggingFilter - Request Body :{"username":"uday1234","password":"uday12345"}
+21:54:53 [main] INFO  com.api.filters.LoggingFilter - Status Code :200
+21:54:53 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 31 Jan 2026 16:24:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Response Body :{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc2OTg3NjY5NCwiZXhwIjoxNzY5ODgwMjk0fQ.hYfC0pduVig3MrQ6HK7ap5Lw5yuQ308hlyZ1Ol6RrcY",
+    "type": "Bearer",
+    "id": 1,
+    "username": "uday1234",
+    "email": "ALOK1234@yahoo.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - BASE URI :http://64.227.160.186:8080
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Request Header :Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1ZGF5MTIzNCIsImlhdCI6MTc2OTg3NjY5NCwiZXhwIjoxNzY5ODgwMjk0fQ.hYfC0pduVig3MrQ6HK7ap5Lw5yuQ308hlyZ1Ol6RrcY
+Accept=*/*
+Content-Type=application/json
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Request Body :null
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Status Code :200
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Response Header :Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Sat, 31 Jan 2026 16:24:54 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+21:54:54 [main] INFO  com.api.filters.LoggingFilter - Response Body :{
+    "overallStatus": "NOT_STARTED",
+    "documentStatus": {
+        
+    },
+    "totalDocuments": 0,
+    "pendingDocuments": 0
+}
+21:54:54 [main] INFO  com.api.listeners.TestListener - Passed !! getProfileInfo
+21:54:54 [main] INFO  com.api.listeners.TestListener - Descripetion !! Verify Get profile API
+21:54:54 [main] INFO  com.api.listeners.TestListener - Test Suite Finished
