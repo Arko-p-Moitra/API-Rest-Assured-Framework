@@ -5,6 +5,10 @@ on:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
+  workflow_dispatch:
+  # schedule:
+  #   -cron: '0 2 * * *' 
+    
 
 jobs:
   build:
@@ -21,3 +25,10 @@ jobs:
         cache: maven
     - name: Execute Test
       run: mvn clean test -Djava.version=11 -Dsuite=suite
+
+    - name: Upload a Build Artifact
+      uses: actions/upload-artifact@v6.0.0
+      with:
+        name: Logs# optional, default is artifac
+        path: logs/ 
+    
